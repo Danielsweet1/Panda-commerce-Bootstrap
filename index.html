@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light py-3">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -23,13 +23,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Subscribe</a>
+                    <a class="nav-link " href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -131,7 +131,7 @@
         <!-- Shoes and Backpack section strt -->
         <section class=" bg-light my-5">
           <!-- shoes -->
-          <div class="container px-5 pt-5 ">
+          <div class="container px-5 pt-5 " id="shoes">
            <div class="d-flex justify-content-between align-items-center">
             <h1 class="m-3 fw-bold">Shoes</h1>
             <button class="btn btn-outline-white text-primary fs-5">See all</button>
@@ -173,7 +173,7 @@
           </div>
           </div>
           <!-- bags -->
-          <div class="container px-5 mt-5 py-5">
+          <div class="container px-5 mt-5 py-5" id="backpack">
             <div class="d-flex justify-content-between align-items-center">
               <h1 class="m-3 fw-bold">Backpack</h1>
               <button class="btn btn-outline-white text-primary fs-5">See all</button>
@@ -216,7 +216,26 @@
           </div>
         </section>
         <!-- Shoes and Backpack section end -->
+        <!-- subsciribe section srt -->
+        <section style="height: 300px;" class="container d-flex justify-content-center align-items-center bg-info p-5 rounded-3" id="subscribe">
+         <div class="text-center">
+          <h2 class="fw-bold">LET'S STAY IN TOUCH</h2>
+          <p>Get updates on sales specials and more</p>
+          <form class="">
+            <div class="d-flex">
+              <div class="">
+                <input type="email" class="form-control" placeholder="Enter Your Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="btn btn-primary px-4">Send</button>
+            </form>
+            </div>
+         </div>
+        </section>
+        <!-- subsciribe section end-->
     </main>
+    <footer>
+      <p class="text-center mt-5">&copy;2022. Panda Commerce. All rights Reserved</p>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
